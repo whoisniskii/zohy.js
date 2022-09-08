@@ -1,0 +1,17 @@
+{
+  "name": "@zohyjs/structures",
+  "version": "0.0.1",
+  "description": "A set of builders that you can use when creating your bot",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "interactions",
+    "discord-interactions"
+  ],
+  "contributors": [
+    "Nicolas Ribeiro <business@niskii.dev>"
+  ],
+  "dependencies": {
+    "discord-api-types": "^0.37.7"
+  }
+}

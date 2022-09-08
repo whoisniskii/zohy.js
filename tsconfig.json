@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "exactOptionalPropertyTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    "target": "ESNext",
+    "sourceMap": true,
+    "outDir": "dist",
+    "noImplicitAny": false,
+    "importHelpers": true,
+    "rootDir": "packages",
+  },
+  "include": [
+    "packages/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "packages/**/node_modules"
+  ]
+}

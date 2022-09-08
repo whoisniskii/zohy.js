@@ -1,0 +1,21 @@
+{
+  "name": "zohy.js",
+  "version": "0.0.1",
+  "description": "A fast, lightweight module to receive and parse Discord HTTP interactions",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "interactions",
+    "discord-interactions"
+  ],
+  "engines": {
+    "node": ">=16.8.0",
+    "npm": ">=7.0.0"
+  },
+  "contributors": [
+    "Nicolas Ribeiro <business@niskii.dev>"
+  ],
+  "dependencies": {
+    "fastify": "^4.5.3"
+  }
+}
