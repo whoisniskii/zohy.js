@@ -1,8 +1,12 @@
 {
   "extends": ["plugin:@typescript-eslint/recommended", "eslint-config-google"],
   "plugins": ["@typescript-eslint"],
-  "ignorePatterns": ["node_modules/", "dist/", "*.js"],
+  "ignorePatterns": ["node_modules/", "dist/"],
   "parserOptions": {
     "ecmaVersion": "latest"
+  },
+  "rules": {
+    "object-curly-spacing": ["off"],
+    "require-jsdoc": ["off"]
   }
 }

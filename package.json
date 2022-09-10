@@ -1,5 +1,6 @@
 {
   "name": "@zohyjs/zohy",
+  "description": "A fast, lightweight module to receive and parse Discord HTTP interactions",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -10,11 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/denkylabs/zohy.git"
+    "url": "https://github.com/denkylabs/zohy.js.git"
   },
   "bugs": {
-    "url": "https://github.com/denkylabs/zohy/issues"
+    "url": "https://github.com/denkylabs/zohy.js/issues"
   },
+  "homepage": "https://github.com/denkylabs/zohy.js#readme",
   "engines": {
     "node": ">=16.8.0",
     "npm": ">=7.0.0"
@@ -39,11 +41,14 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@types/node": "^18.7.16",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",
     "eslint": "^8.23.0",
     "eslint-config-google": "^0.14.0",
-    "lerna": "5.1.6",
+    "lerna": "^5.1.6",
+    "nx": "^14.6.5",
+    "tsup": "^6.2.3",
     "typescript": "^4.8.2"
   }
 }

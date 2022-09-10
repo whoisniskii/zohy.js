@@ -1,23 +1,26 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "declaration": true,
-    "esModuleInterop": true,
-    "exactOptionalPropertyTypes": true,
-    "strictNullChecks": true,
-    "strictPropertyInitialization": false,
-    "target": "ESNext",
-    "sourceMap": true,
-    "outDir": "dist",
-    "noImplicitAny": false,
-    "importHelpers": true,
-    "rootDir": "packages",
-  },
-  "include": [
-    "packages/**/*"
-  ],
-  "exclude": [
-    "node_modules",
-    "packages/**/node_modules"
-  ]
+      "allowSyntheticDefaultImports": true,
+      "declaration": true,
+      "declarationMap": true,
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "esModuleInterop": true,
+      "exactOptionalPropertyTypes": true,
+      "importHelpers": true,
+      "lib": [
+          "ESNext"
+      ],
+      "noImplicitAny": false,
+      "outDir": "dist",
+      "sourceMap": true,
+      "newLine": "lf",
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "strictNullChecks": true,
+      "strictPropertyInitialization": false,
+      "target": "ESNext",
+      "useDefineForClassFields": true
+  }
 }

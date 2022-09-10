@@ -8,10 +8,28 @@
     "interactions",
     "discord-interactions"
   ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "author": {
+    "name": "Davi Patricio",
+    "email": "veric@denkylabs.com"
+  },
   "contributors": [
     "Nicolas Ribeiro <business@niskii.dev>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denkylabs/zohy.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/denkylabs/zohy.js/issues"
+  },
+  "homepage": "https://github.com/denkylabs/zohy.js#readme",
   "dependencies": {
     "discord-api-types": "^0.37.7"
+  },
+  "devDependencies": {
+    "tsup": "^6.2.3"
   }
 }

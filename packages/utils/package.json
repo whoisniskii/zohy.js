@@ -8,11 +8,32 @@
     "interactions",
     "utility"
   ],
+  "scripts": {
+    "build": "tsup"
+  },
   "engines": {
     "node": ">=16.8.0",
     "npm": ">=7.0.0"
   },
+  "author": {
+    "name": "Davi Patricio",
+    "email": "veric@denkylabs.com"
+  },
   "contributors": [
     "Nicolas Ribeiro <business@niskii.dev>"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denkylabs/zohy.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/denkylabs/zohy.js/issues"
+  },
+  "homepage": "https://github.com/denkylabs/zohy.js#readme",
+  "devDependencies": {
+    "tsup": "^6.2.3"
+  },
+  "dependencies": {
+    "discord-verify": "^1.0.0"
+  }
 }
