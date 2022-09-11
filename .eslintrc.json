@@ -7,6 +7,7 @@
   },
   "rules": {
     "object-curly-spacing": ["off"],
-    "require-jsdoc": ["off"]
+    "require-jsdoc": ["off"],
+    "max-len": ["error", { "code": 220 }],
   }
 }
