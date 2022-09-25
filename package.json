@@ -1,5 +1,5 @@
 {
-  "name": "@zohyjs/zohy",
+  "name": "@zohyjs/zohy.js",
   "description": "A fast, lightweight module to receive and parse Discord HTTP interactions",
   "version": "0.0.0",
   "license": "MIT",
@@ -11,43 +11,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/denkylabs/zohy.js.git"
+    "url": "https://github.com/whoisniskii/zohy.js.git"
   },
   "bugs": {
-    "url": "https://github.com/denkylabs/zohy.js/issues"
+    "url": "https://github.com/whoisniskii/zohy.js/issues"
   },
-  "homepage": "https://github.com/denkylabs/zohy.js#readme",
+  "homepage": "https://github.com/whoisniskii/zohy.js#readme",
   "engines": {
-    "node": ">=16.8.0",
-    "npm": ">=7.0.0"
+    "node": ">=16.8.0"
   },
-  "author": {
-    "name": "Davi Patricio",
-    "email": "veric@denkylabs.com"
-  },
-  "sponsor": {
-    "url": "https://github.com/sponsors/whoisniskii"
-  },
-  "files": [
-    "build",
-    "package.json",
-    "LICENSE",
-    "README.md"
-  ],
-  "contributors": [
-    "Nicolas Ribeiro <business@niskii.dev>"
-  ],
+  "author": "Nicolas Ribeiro <business@niskii.dev>",
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "@types/node": "^18.7.16",
-    "@typescript-eslint/eslint-plugin": "^5.36.2",
-    "@typescript-eslint/parser": "^5.36.2",
-    "eslint": "^8.23.0",
+    "@types/node": "^18.7.21",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "eslint": "^8.24.0",
     "eslint-config-google": "^0.14.0",
-    "lerna": "^5.1.6",
-    "nx": "^14.6.5",
+    "lerna": "^5.5.2",
+    "nx": "^14.7.13",
     "tsup": "^6.2.3",
     "typescript": "^4.8.2"
   }

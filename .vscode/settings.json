@@ -1,0 +1,15 @@
+{
+  "npm.packageManager": "yarn",
+  "eslint.packageManager": "yarn",
+  "files.eol": "\n",
+  "eslint.workingDirectories": [
+    {
+      "pattern": "./packages/*"
+    }
+  ],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": false
+  },
+}
